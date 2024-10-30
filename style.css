@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .header {
+    background-color: #cfe2cf;
+    border-right-color:black;
+    padding: 15px;
+  }
+  .header h2 {
+    font-size: 1.5rem;
+    color: #2f4f2f;
+    font-weight: bold;
+  }
+
+  .header__search input {
+    border: 2px solid #5a6d5a;
+    border-radius: 8px;
+  }
+
+  .header__logo {
+    border-right: 1px solid #050505;
+    background-color: #cfe2cf;
+  }
+
+  .main-content {
+    background-color: #e9f2e9;
+    padding: 20px;
+  }
+
+  .main__section h2 {
+    color: #2f4f2f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #5a6d5a;
+    padding-bottom: 10px;
+  }
+
+  .main__section h3 {
+    color: #4a6a4a;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .main__section ul {
+    padding-left: 20px;
+  }
+  .main__section ul li {
+    margin-bottom: 10px;
+  }
+
+  .header__menu ul {
+    padding: 0;
+  }
+
+  .header__menu li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .header__menu a {
+    color: #2f4f2f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .header__menu a:hover {
+    text-decoration: underline;
+  }
+
+
+  .footer {
+    background-color: #dde5dd;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #4a6a4a;
+  }
+  .footer p, .footer ul {
+    margin: 0;
+  }
+  .footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .footer a {
+    color: #2f4f2f;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  .btn {
+    background-color: #5a6d5a;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .btn:hover {
+    background-color: #4a6a4a;
+    color: #e9f2e9;
+  }
+
+  .img-logo {
+    width: 200px;  
+  }
+  
+  .main-content {
+    background-color: #e0f0db;
+    border: 1px solid #050505;
+    padding: 20px;
+  }
+
+  h2 {
+    color: #2f4f2f;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .submain-content {
+    background-color: #d8efd5;
+    border: 1px solid #050505;
+    border-left-color:transparent;
+    padding: 15px;
+  }
+
+  .animal-section {
+    margin-bottom: 20px;
+  }
+
+  .animal-section h3 {
+    color: #2f4f2f;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .title-section {
+    color: #000000;
+    font-size: 1em;
+  } 
+
+  .carpatian-section {
+    color: #2f4f2f;
+    font-size: 1em;
+  }
+
+  .animal-description {
+    color: #4a6a4a;
+  }
+
+  .animal-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .img-logo {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer__social-net {
+    border-right: 1px solid #050505;
+  }
+
+
+  @media (max-width: 768px) {
+    .animal-section {
+      text-align: center;
+    }
+    .animal-section img {
+      margin: 0 auto;
+    }
+  }
+
+
+  @media (max-width: 432px) {
+    .list-inline-item-footer {
+      font-size: 0.6em;
+    }
+  }
+
+
+
